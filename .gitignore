@@ -1,0 +1,32 @@
+# Зависимости и сборка фронтенда
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+
+# Локальные секреты (Пример оставляем, сам .env прячем)
+.env
+.env.local
+.env.*.local
+
+# Базы данных
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+
+# Бэкенд (Go) и служебные файлы
+.claude/
+settings.local.json
+coverage.out
+*.out
+*.test
+bin/
+
+# Логи и системный мусор
+*.log
+.DS_Store
+Thumbs.db
